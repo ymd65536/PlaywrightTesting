@@ -6,9 +6,14 @@ const config: PlaywrightTestConfig = {
         {
             name: 'Microsoft Edge',
             use: {
-                // Supported Microsoft Edge channels are: msedge, msedge-beta, msedge-dev, msedge-canary
                 channel: 'msedge',
-            },
+                headless: false,
+                viewport: { width: 1280, height: 720 },
+                ignoreHTTPSErrors: true,
+                video: 'on',
+                screenshot: 'on',
+                userAgent: 'playwright-test'
+            }
         },
     ],
 };
