@@ -1,3 +1,7 @@
 node_modules
 test-results
 .DS_Store
+node_report/playwright-report
+node_report/playwright-report/data
+node/test-results/
+node/test-results/*.json
