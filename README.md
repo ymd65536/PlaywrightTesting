@@ -18,25 +18,18 @@ MS Edgeをインストールする場合
 npx playwright install msedge
 ```
 
+## フォルダの説明
+
+- node: Node.jsでテストする場合のサンプル
+- node_report: レポートを作る場合のサンプル
+- node_testing: Microsoft Playwright Testingを使ってテストする場合のサンプル
+- node_uim: UI Modeを使ってテストする場合のサンプル
+
 ## Node.jsでテスト
 
 ```bash
 npx playwright test --workers=1
 ```
-
-## UI Modeを使ってみる
-
-```bash
-npx playwright test --ui
-```
-
-## レポートを作る
-
-```bash
-npx playwright show-report
-```
-
-[参考](https://playwright.dev/docs/test-reporters)
 
 ## おまけ
 
