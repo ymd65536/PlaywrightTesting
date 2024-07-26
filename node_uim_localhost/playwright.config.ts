@@ -2,6 +2,7 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
+    reporter: [['html', { outputFolder: './playwright-report' }]],
     projects: [
         {
             name: 'Microsoft Edge',

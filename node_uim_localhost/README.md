@@ -1,4 +1,4 @@
-# node_uim
+# node_uim_localhost
 
 ## 手順
 
@@ -14,4 +14,10 @@ npm install
 
 ```bash
 npx playwright test --ui
+```
+
+### テストレポートを作る
+
+```bash
+npx playwright show-report
 ```
