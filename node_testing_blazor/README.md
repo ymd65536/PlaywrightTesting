@@ -10,12 +10,6 @@ Microsoft Playwright Testingを使ってテストする場合のサンプル
 npm install
 ```
 
-### Node.jsでテスト
-
-```bash
-npx playwright test --config=playwright.service.config.ts --workers=1
-```
-
 ### 環境変数のセットアップ
 
 ```bash
@@ -67,6 +61,10 @@ export default defineConfig(config, {
 
 ```bash
 npx playwright test tests/foo.spec.ts --config=playwright.service.config.ts
+```
+
+```bash
+npx playwright test --config=playwright.service.config.ts --workers=1
 ```
 
 ## 参考
