@@ -1,8 +1,16 @@
 # Microsoft Playwrigth Testing
 
+## フォルダの説明
+
+- node: Node.jsでテストする場合のサンプル
+- node_report: レポートを作る場合のサンプル
+- node_testing: Microsoft Playwright Testingを使ってテストする場合のサンプル
+- node_uim: UI Modeを使ってテストする場合のサンプル
+- node_uim_localhost: UI Modeを使ってテストする場合のサンプル、localhostのアプリケーションを使う
+
 ## Microsoft Playwrigth Testingを試す
 
-利用するアプリケーション
+### テストに利用するアプリケーション
 
 [BlazorAppContainer](https://github.com/ymd65536/BlazorAppContainer)
 
@@ -17,13 +25,6 @@ MS Edgeをインストールする場合
 ```bash
 npx playwright install msedge
 ```
-
-## フォルダの説明
-
-- node: Node.jsでテストする場合のサンプル
-- node_report: レポートを作る場合のサンプル
-- node_testing: Microsoft Playwright Testingを使ってテストする場合のサンプル
-- node_uim: UI Modeを使ってテストする場合のサンプル
 
 ## Node.jsでテスト
 
